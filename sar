@@ -1,0 +1,2 @@
+# Search and replace recursively all occurences of $1 with $2 in the present directory.
+perl -pi -e "s/$1/$2/g" ./*
